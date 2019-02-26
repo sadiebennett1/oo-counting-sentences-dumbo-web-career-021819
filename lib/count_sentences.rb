@@ -31,7 +31,8 @@ class String
         new_arr << sent
       end
     end
-    return new_arr.length
+    return new_arr.length 
+  end
         
     
   end
