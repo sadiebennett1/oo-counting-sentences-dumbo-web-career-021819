@@ -25,12 +25,12 @@ class String
 
   def count_sentences
     arr = self.split("!").join(" ").split(".").join(" ").split("?")
-    new_arr = []
-    arr.each do |sent|
-      if sent != ""
-        new_arr << sent
-      end
-    end
-    return new_arr.length 
-  end
+  #   new_arr = []
+  #   arr.each do |sent|
+  #     if sent != ""
+  #       new_arr << sent
+  #     end
+  #   end
+  #   return new_arr.length 
+  # end
 end
