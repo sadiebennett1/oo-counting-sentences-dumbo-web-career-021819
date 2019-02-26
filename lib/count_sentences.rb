@@ -25,7 +25,7 @@ class String
 
   def count_sentences
     arr = self.split("!").join(" ").split(".").join(" ").split("?")
-    new_arr
+    new_arr = []
     arr.each do |sent|
       if sent != ""
         new_arr << sent
