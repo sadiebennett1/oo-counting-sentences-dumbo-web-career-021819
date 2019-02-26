@@ -32,5 +32,5 @@ class String
   #     end
   #   end
   #   return new_arr.length 
-  # end
+  end
 end
