@@ -33,7 +33,4 @@ class String
     end
     return new_arr.length 
   end
-        
-    
-  end
 end
